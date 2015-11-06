@@ -1,0 +1,16 @@
+body {
+    background-color: bisque;
+    
+}
+/*styling of list*/
+ul li {
+    border: 1px solid black;
+    list-style-type: circle;
+    /*you can also style your list by */
+    list-style-image: ;
+    background-image: url();
+    /*specifies whether the list-item markers should appear inside or outside the content flow*/
+    list-style-position: inside;
+/*to understand it change value to outside*/
+    
+}

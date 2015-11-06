@@ -1,0 +1,180 @@
+body {
+    background-color: darkgrey;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+row:after {
+    content: "";
+    clear: both;
+    display: block;
+    box-sizing:border-box;
+}
+[class*="col-"] {
+    float: left;
+    
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+   
+    .body {
+        width: 95%;
+        margin: 0 auto;
+
+  
+}
+    [class*="col-"] {
+        width: 100%;
+    
+    }
+    img {
+    
+    max-width: 100%;
+    visibility:hidden;
+    clear: both;
+
+    }
+    
+    
+   .main-down {
+
+    visibility: hidden;
+    overflow: both;
+}
+ 
+ sidebar-top {
+    
+    clear: both;
+
+}
+ 
+}
+    
+
+
+header {
+    border: 7px solid white;
+    }
+img {
+     border: 3px solid white;
+    width: 99%;
+    height: 100px;
+    margin: 5px;
+
+}
+
+
+.navbar     {
+    height: 40px; 
+    background-color: dimgrey;;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+  
+    
+}
+.navbar    ul {
+    
+    list-style: none;
+    margin: 0 auto;
+    padding: 0 auto;
+       
+   
+}
+ .navbar    ul li {
+     float: left;
+    display: inline;
+        
+     
+  
+   
+}
+.navbar    a:link,.navbar   a:visited { 
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+    display: inline-block;
+    text-transform: capitalize;
+    height: 20px;
+
+   }
+.navbar    a:hover,.navbar     a:active {
+    border-radius: 5px;
+    background-color: orangered;
+    text-shadow: none;
+   }
+.main-top {
+   
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.main-down {
+
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sidebar-top{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.sidebar-middle{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.sidebar-bottom{
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+}
+.footer {
+    background-color: white;
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
